@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F0911952-AD87-43D7-BADD-9F05B93CF45C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ADayInTheLifeOf</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>500AB434-1056-468C-8C52-E36D0A6200DF</key>
+		<string>https://github.com/braxm7/ADITL.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ADayInTheLifeOf.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>500AB434-1056-468C-8C52-E36D0A6200DF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/braxm7/ADITL.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>500AB434-1056-468C-8C52-E36D0A6200DF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>500AB434-1056-468C-8C52-E36D0A6200DF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ADITF</string>
+		</dict>
+	</array>
+</dict>
+</plist>

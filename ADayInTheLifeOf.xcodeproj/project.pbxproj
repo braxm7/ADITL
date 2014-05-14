@@ -24,6 +24,7 @@
 		09ABC08B13A1D52E009C3FCF /* ParseStarterProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09ABC08913A1D52E009C3FCF /* ParseStarterProjectViewController.xib */; };
 		09BEF34C13D51C3F001BBCDB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09BEF34B13D51C3F001BBCDB /* Security.framework */; };
 		2FCDD6B014A573F500295AAC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCDD6AF14A573F500295AAC /* QuartzCore.framework */; };
+		430F4F7819231AC700DE8C60 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430F4F7719231AC700DE8C60 /* LogInViewController.m */; };
 		432E3E43191DCACA004ECA63 /* Storyboard2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 432E3E45191DCACA004ECA63 /* Storyboard2.storyboard */; };
 		43F76700191DBE280008B25A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F766FF191DBE280008B25A /* ViewController.m */; };
 		4998650515BF305000803E05 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4998650415BF305000803E05 /* StoreKit.framework */; };
@@ -57,6 +58,8 @@
 		09ABC08A13A1D52E009C3FCF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ParseStarterProjectViewController.xib; sourceTree = "<group>"; };
 		09BEF34B13D51C3F001BBCDB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		2FCDD6AF14A573F500295AAC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		430F4F7619231AC700DE8C60 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		430F4F7719231AC700DE8C60 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		432E3E44191DCACA004ECA63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Storyboard2.storyboard; sourceTree = "<group>"; };
 		43F766FE191DBE280008B25A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
 		43F766FF191DBE280008B25A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
@@ -99,6 +102,8 @@
 		09ABC06213A1D52D009C3FCF = {
 			isa = PBXGroup;
 			children = (
+				430F4F7619231AC700DE8C60 /* LogInViewController.h */,
+				430F4F7719231AC700DE8C60 /* LogInViewController.m */,
 				09ABC07713A1D52D009C3FCF /* ADayInTheLifeOf */,
 				09ABC07013A1D52D009C3FCF /* Frameworks */,
 				432E3E52192168EE004ECA63 /* New Group */,
@@ -248,6 +253,7 @@
 			files = (
 				09ABC07F13A1D52D009C3FCF /* main.m in Sources */,
 				09ABC08213A1D52D009C3FCF /* ParseStarterProjectAppDelegate.m in Sources */,
+				430F4F7819231AC700DE8C60 /* LogInViewController.m in Sources */,
 				43F76700191DBE280008B25A /* ViewController.m in Sources */,
 				09ABC08813A1D52E009C3FCF /* ParseStarterProjectViewController.m in Sources */,
 			);
