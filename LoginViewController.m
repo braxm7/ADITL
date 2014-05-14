@@ -7,8 +7,9 @@
 //
 
 #import "LogInViewController.h"
+#import <Parse/Parse.h>
 
-@interface LogInViewController ()
+@interface LogInViewController () <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
 
 @end
 
@@ -18,7 +19,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [PFFacebookUtils initializeFacebook];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -27,6 +29,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+//        PFLogInViewController *login = [[PFLogInViewController alloc] init];
+//        [self presentModalViewController:login animated:YES];
+//    [login release];
+
+}
 
 
 @end

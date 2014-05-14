@@ -11,6 +11,9 @@
     // ****************************************************************************
     // Uncomment and fill in with your Parse credentials:
      [Parse setApplicationId:@"NNZrEDyJHvGIqtNUMJ3weQaDCwp74k9bazniALe7" clientKey:@"bTRki7wONs1uMOhpFd8EHw8UBW9ruVKqk5Gkd8he"];
+    
+    [PFTwitterUtils initializeWithConsumerKey:@"VaXpepUAa85Z7agHW2q4Wc2ES"
+                               consumerSecret:@"2apUWkoKPc5tjkcEsT7jtmcjZSsrDf4HllNYpF4vrrO0ldVYN7"];
     //
     // If you are using Facebook, uncomment and add your FacebookAppID to your bundle's plist as
     // described here: https://developers.facebook.com/docs/getting-started/facebook-sdk-for-ios/
